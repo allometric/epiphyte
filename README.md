@@ -22,3 +22,5 @@ Here is a general idea:
 - From this parsed .bib file, create the omnibus publication issue on GitHub
 - Create each component pub as a separate issue, and reference the omnibus issue number, this will link them all to the same source
 - Somehow we should check to see if similar publications are already in `models.RDS` before adding them as a new issue to avoid overlap. This will not be perfect, but some effort here is warranted
+
+3. Searching for families given a genus x species pairing (or just a genus?)
