@@ -1,0 +1,25 @@
+Package: epiphyte
+Title: Administrative Tools for allometric
+Version: 0.0.1
+Authors@R:
+    c(
+      person(
+        given = "Bryce", family = "Frank", email = "bfrank70@gmail.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0003-2980-6860")
+      )
+Description: Perform rote tasks involved with administering and maintaining the
+  allometric R package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE, knitr_chunk_options = list(R.options = list(width = 10000, crayon.enabled=FALSE)))
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr
+Collate:
+    'get_family.R'
+Depends: 
+    R (>= 2.10)
+LazyData: true
+BugReports: https://github.com/allometric/epiphyte/issues
+Contact: bfrank70@gmail.com
